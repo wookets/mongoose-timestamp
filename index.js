@@ -7,5 +7,6 @@ module.exports = function(schema, options) {
       this.createdOn = new Date();
     }
     this.modifiedOn = new Date();
+    next();
   });
 }
